@@ -120,13 +120,15 @@ footer{
     padding: 20px;
 }
 
-/* @media(min-width:768px){
+ @media(min-width:600px){
     h1{
-    font-size: 39px;
-    line-height: 2;
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: center;
 }
 h2{
  font-size: 44px;
+   text-align: center;
     }
     .hero-buttons{
     margin-left: 80px;
@@ -140,11 +142,15 @@ h2{
     border: 1px solid;
 }
 .content-section p{
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
 }
 .contact-header{
     text-align: center;
     font-size: 44px;
 }
- }    */
+.headshot-index{
+    display: block;
+    width: 150pxS;
+}
+ }    
