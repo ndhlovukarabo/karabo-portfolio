@@ -11,21 +11,6 @@ body{
    background: linear-gradient(#717FA7,#9DA2C2,#C5BCD5,#E9D6E5,#CED5E5);
 }
 
-.navbar{
-
-    color: #CB8587;
-}
-.hero{
-    margin: 100px 0 0 80px;
-}
- .hero h1{
-    font-family: var(--heading-font-family);
-    line-height: 1.4;
-    font-size: 96px;
-    font-weight: bold;
-    text-align: center;
-padding: 60px 20px;
-}
 
  .content-section p{
     font-family: var(--default-font-family);
@@ -63,6 +48,27 @@ text-align: center;
 text-align: center;
 }
 
+.hero{
+    margin: 100px 0 0 80px;
+}
+ .hero h1{
+    font-family: var(--heading-font-family);
+    line-height: 1.4;
+    font-size: 96px;
+    font-weight: bold;
+    text-align: center;
+padding: 60px 20px;
+}
+.headshot-index{
+    width: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 200px;
+}
+.navbar{
+
+    color: #CB8587;
+}
+
   .Projects h1{
     font-family: var(--heading-font-family);
     font-size: 89px;
@@ -77,11 +83,7 @@ text-align: center;
     display: block;
 }
 
-.headshot-index{
-    width: 400px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin-top: 200px;
-}
+
 .resume{
    font-family: var(--heading-font-family);
     font-size: 89px;
@@ -120,7 +122,23 @@ footer{
     padding: 20px;
 }
 
- @media(min-width:600px){
+@media screen and (max-width: 576px){
+  .container{
+    align-items: center;
+    text-align: center;
+  }
+    .hero h1{
+    line-height: 1.1;
+    font-size: 47px;
+}
+ .content-section h2{
+    font-size:27px ;
+    margin: 60px;
+ }
+}
+
+
+ /* @media(max-width:574px){
     h1{
     font-size: 10px;
     line-height: 1.5;
@@ -132,6 +150,7 @@ h2{
     }
     .hero-buttons{
     margin-left: 80px;
+    text-align: center;
 }
 .contact-header{
      font-size: 59px;
@@ -153,4 +172,4 @@ h2{
     display: block;
     width: 150pxS;
 }
- }    
+ }     */
