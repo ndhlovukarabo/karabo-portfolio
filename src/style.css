@@ -8,16 +8,19 @@
 
 body {
   background: linear-gradient(135deg, #000000 0%, #ffffff 100%);
+  animation: bg 5s linear infinite;
+  @keyframes bg{
+    100%{
+        filter:hue-rotate(360deg);
+
+    }
+
+  }
 
 
 
 }
 
-;
-
-
-            
-}
 .about-section-content{
     font-family: var(--heading-font-family);
     font-size: 89px;
